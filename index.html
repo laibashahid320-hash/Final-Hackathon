@@ -1,18 +1,123 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg px-3 px-md-5 mx-lg-4 py-3">
+      <!-- logo -->
+      <div class="container-fluid">
+        <!-- logo image -->
+        <a class="navbar-brand" href="#"
+          ><img src="./images/Logo.svg" alt="Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse gap-4 text-center"
+          id="navbarSupportedContent"
+        >
+          <!-- links -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+            <li class="nav-item">
+              <a class="nav-link text-black" aria-current="page" href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" aria-current="page" href="#"
+                >Features</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" aria-current="page" href="#"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" aria-current="page" href="#"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" aria-current="page" href="#"
+                >Team</a
+              >
+            </li>
+          </ul>
+
+          <!-- button -->
+          <form class="d-flex justify-content-center" role="search">
+            <button class="btn text-white purple px-5 rounded-4" type="submit">
+              Get started
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
     <!-- navbar end -->
 
-    
+    <!-- hero section start -->
+    <div
+      class="row flex-lg-row-reverse align-items-center ps-lg-5 g-5 pt-5 m-0 w-100 justify-content-center"
+    >
+      <!-- hero section image -->
+      <div class="col-12 ps-3 ps-lg-0 col-sm-12 col-lg-7 m-0 p-0">
+        <img
+          src="./images/hero image.svg"
+          class="d-block mx-lg-auto img-fluid"
+          alt="hero image"
+          width="800"
+          height="500"
+          loading="lazy"
+        />
+      </div>
+
+      <div
+        class="col-lg-5 d-flex row gap-3 pt-5 pt-lg-0 pb-5 pb-md-0 text-center text-lg-start m-0 justify-content-center justify-content-lg-start"
+      >
+        <!-- hero text -->
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+          <span class="text-purple">AdminDashboard</span> <br />
+          — Free bootstrap admin template
+        </h1>
+        <p class="lead para-color fs-6">
+          This is a powerful admin and dashboard template. It provides a clean
+          and intuitive design that is focused on
+          <br class="d-none d-lg-block" />
+          user experience.
+        </p>
+
+        <!-- hero button -->
+        <div
+          class="d-grid gap-2 d-md-flex justify-content-lg-start w-25 justify-content-center"
+        >
+          <button
+            type="button"
+            class="btn button-color text-white rounded-4 btn-lg px-5 fs-6 me-md-2"
+          >
+            Download
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- hero section end -->
+
     <!-- bootstrap javascript -->
-     <script src="bootstrap.js"></script>
-</body>
+    <script src="bootstrap.js"></script>
+  </body>
 </html>

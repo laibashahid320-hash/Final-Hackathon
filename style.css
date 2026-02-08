@@ -1,10 +1,44 @@
 /* fonts */
 @font-face {
-    font-family: Poppines;
-    src: url(./fonts/Poppins-Regular.ttf);
+  font-family: Roboto;
+  src: url(./fonts/Roboto-Regular.ttf);
 }
 
 /* variables */
+:root {
+  --primary-color: linear-gradient(90deg, #da22ff 0%, #9733ee 100%);
+  --secondary-color: #5e5ce6;
+}
 
+/* body */
+body {
+  font-family: Roboto;
+  background: #f3f6fd;
+}
 
 /* navbar */
+.purple {
+  background: var(--primary-color);
+  box-shadow: 0px 4px 4px -2px #18274b14;
+}
+
+/* hero section */
+.text-purple {
+  background: var(--primary-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.para-color {
+  color: #7b7e86;
+}
+
+.button-color {
+  background-color: var(--secondary-color);
+  box-shadow: 0px 8px 8px -4px #18274b14;
+}
+
+/* button hover */
+.button-color:hover {
+  background-color: var(--secondary-color);
+}
